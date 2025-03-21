@@ -40,7 +40,7 @@ Dieses Projekt ist eine moderne Website mit einem responsiven Design. Sie beinha
 ├── 📂 js
 │   ├── daruma.js
 │   ├── jquery-3.5.1.js
-├── 📂 lightbox2
+├── 📂 lightbox2  
 ├── index.html
 ├── about.html
 ├── contact.html
