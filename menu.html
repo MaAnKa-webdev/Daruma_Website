@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="de">
+<head>
+
+    <!-- Meta-Informationen für die Seite -->
+    <title>Daruma Ramen - Menü</title>
+	<meta charset="utf-8">
+    <meta name="description" content="Erlebe authentische japanische Ramen. Handgemachte Nudeln, frisch gekochte Brühen und traditionelle Zubereitung – ein Stück Japan in jeder Schüssel. Jetzt entdecken!">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon für verschiedene Formate -->
+    <link rel="icon" href="media/favicon.png" type="image/png">
+    <link href="media/favicon.svg" rel="icon" type="image/svg+xml" sizes="any">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/daruma_menu.css">
+
+    <!-- JavaScript-Dateien -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/daruma.js"></script>
+</head>
+<body>
+
+    <!-- Zurück nach oben Button -->
+    <div id="top">
+        <a href="#">Top</a>
+    </div>
+
+    <!-- Header -->
+    <header>
+
+    <!-- Hauptnavigation -->
+        <nav id="main_nav">
+            <div class="nav_a">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menü</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+                </div>
+                <div class="nav_logo">
+                    <img src="media/Daruma_Logo.png" alt="Daruma Logo">
+                </div>
+            <input>
+         </nav>
+
+    <!-- Mobile Navigation (Burger Menü) -->
+        <div id="nav_bar">
+            <input type="checkbox" id="navchecker">
+            <label for="navchecker" id="close_nav" title="close navigation"></label>
+            <label for="navchecker" id="burger">
+                <span class="burger_line"></span>
+                <span class="burger_line"></span>
+                <span class="burger_line"></span>
+            </label>
+            <nav id="burger_nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menü</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="nav_logo">
+                <img src="media/Daruma_Logo.png" alt="Daruma Logo">
+            </div>
+        </div>
+        
+    <!-- Banner mit Slogan -->   
+        <div id="banner_ramen">
+            <img src="media/banner_ramen.png" alt="Daruma Header Ramen">
+        </div>
+        <div id="slogan">
+            <p id="slogan_1">Taste the one and only</p>
+            <p id="slogan_2">Daruma</p>
+            <p id="slogan_3">Ramen</p>
+        </div>
+        <div id="tease_1">
+            <p>Erlebe den unvergleichlichen Geschmack handgemachter Ramen – authentisch, frisch und mit jeder Schüssel ein Stück Japan.</p>
+        </div>
+        <div id="tease_2">
+            <a href="menu.html">Entdecke unsere Ramen</a>
+        </div>
+        <div id="banner">
+            <img src="media/ramen_icon.png" alt="Ramen Icon">
+            <p>NEUERÖFFNUNG</p>
+            <img src="media/ramen_icon.png" alt="Ramen Icon">
+            <p>RESERVIERE JETZT</p>
+            <img src="media/ramen_icon.png" alt="Ramen Icon">
+            <p>NEUERÖFFNUNG</p>
+            <img src="media/ramen_icon.png" alt="Ramen Icon">
+            <p>RESERVIERE JETZT</p>
+            <img src="media/ramen_icon.png" alt="Ramen Icon">
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+        <h1>Speisekarte</h1>
+
+    <!-- Sub Nav -->
+        <aside>
+             <div id="menu_nav">
+                <a href="#vorspeisen">Vorspeisen</a>
+                <p>|</p>
+                <a href="#hauptgerichte">Hauptgerichte</a>
+                <p>|</p>
+                <a href="#deserts">Dessert</a>
+            </div>
+
+    <!-- Download -->
+            <div id="download">
+                <a href="#" download="Speisekarte">Download Speisekarte</a>
+            </div>
+        </aside>
+
+    <!-- Speisekarte -->
+        <article id="vorspeisen">
+            <h2>Vorspeisen</h2>
+            <div>
+                <h3>Gomawakame</h3>
+                <p>Algen-Salat mit Sesam</p>
+                <p class="price">7.30€</p>
+            </div>
+            <div>
+                <h3>Karaage</h3>
+                <p>frittierte und marinierte Hähnchenstücke</p>
+                <p class="price">9.80€</p>
+            </div>
+            <div>
+                <h3>Takoyaki</h3>
+                <p>Oktopus-Bällchen</p>
+                <p class="price">8.80€</p>
+            </div>
+            <div>
+                <h3>Gyoza</h3>
+                <p>Teigtaschen mit Hähnchen, Schmalz und Frühlingszwiebeln</p>
+                <p class="price">8.80€</p>
+                <p>frittiert</p>
+                <p class="price">9.00€</p>
+            </div>
+            <div>
+                <h3>Edamame</h3>
+                <p>gekochte Sojabohnen</p>
+                <p class="price">6.80€</p>
+            </div>
+        </article>
+        <div class="menu_line">
+            <hr>
+        </div>
+        <article id="hauptgerichte">
+            <h2>Hauptgerichte</h2>
+            <div>
+                <h3>Akihabara Mazesoba</h3>
+                <p>Ramen mit spezialer Hähnchensauce, Weizennudeln, Hähnchen-Chashu,  Frühlingszwiebeln, gewürztem und gekochtem Ei, gebackener Zwiebel,  gewürzten Bambussprossen, Seetang, Sesam und Öl, ohne Suppe</p>
+                <p class="price">16.80€</p>
+            </div>
+            <div>
+                <h3>Shoyu Chicken Ramen</h3>
+                <p>Ramen mit reichhaltiger cremiger Suppe, gewürzt mit Sojasoße, Weizennudeln,  Hähnchen-Chashu, Hähnchenbällchen, Zwiebeln, Seetang, Frühlingszwiebeln  und gewürzten Bambussprossen</p>
+                <p class="price">15.80€</p>
+                <p>mit gewürzten, weichgekochtem Ei</p>
+                <p class="price">17.30€</p>
+            </div>
+            <div>
+                <h3>Shio Chicken Ramen</h3>
+                <p>Ramen mit reichhaltiger cremiger Suppe, gewürzt mit Meersalz, Weizennudeln,  Hähnchen-Chashu, Hähnchenbällchen, Zwiebeln, Frühlingszwiebeln und  gewürzten Bambussprossen</p>
+                <p class="price">15.80€</p>
+                <p>mit gewürzten, weichgekochtem Ei</p>
+                <p class="price">17.30€</p>
+            </div>
+            <div>
+                <h3>Miso Chicken Ramen</h3>
+                <p>Ramen mit reichhaltiger cremiger Suppe, gewürzt mit Miso-Paste, Weizennudeln, Hähnchen-Chashu, Hähnchenbällchen, Zwiebeln, Frühlingszwiebeln und gewürzten Bambussprossen</p>
+                <p class="price">15.80€</p>
+                <p>mit gewürzten, weichgekochtem Ei</p>
+                <p class="price">17.30€</p>
+            </div>
+            <div>
+                <h3>Spicy Chicken Ramen</h3>
+                <p>Ramen mit reichhaltiger cremiger Suppe, gewürzt mit Chillisauce, Weizennudeln, Hähnchen-Chashu,  Hähnchenbällchen, Zwiebeln, Chilliöl, Frühlingszwiebeln, gewürzten  Bambussprossen und Chillifäden</p>
+                <p class="price">15.80€</p>
+                <p>mit gewürzten, weichgekochtem Ei</p>
+                <p class="price">17.30€</p>
+            </div>
+            <div>
+                <h3>Vegetarian Ramen</h3>
+                <p>Ramen mit reichhaltiger cremiger Gemüsesuppe, Weizennudeln, Babyspinat, Zwiebeln, Paprika, Porree, gebackenen Zwiebeln und Champignons</p>
+                <p class="price">15.80€</p>
+                <p>mit gewürzten, weichgekochtem Ei</p>
+                <p class="price">17.30€</p>
+            </div>
+        </article>
+        <div class="menu_line">
+            <hr>
+        </div>
+        <article id="deserts">
+            <h2>Deserts</h2>
+            <div>
+                <h3>Matcha-Eis</h3>
+                <p>Grüntee-Eis mit Sahne</p>
+                <p class="price">7.30€</p>
+            </div>
+            <div>
+                <h3>Sesam-Eis</h3>
+                <p>Sesam-Eis mit Sahne</p>
+                <p class="price">7.30€</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div id="foot_start">
+            <div id="line_1">            
+                <hr class="footline">
+            </div>
+            <div id="foot_logo">
+                <img src="media/Daruma_Logo.png" alt="Daruma Logo">
+            </div>
+            <div id="line_2">
+                <hr class="footline">
+            </div>
+        </div>
+
+    <!-- Social Media Links -->
+        <div id="social">
+            <p>Folgt uns auch über Social Media:</p>
+            <div id="social_icon">
+                <a href="https://www.facebook.com"><img id="face" src="media/facebook.png" alt="facebook icon"></a>
+                <a href="https://www.instagram.com/"><img src="media/insta.png" alt="instagram icon"></a>
+                <a href="https://x.com/"><img src="media/x.png" alt="x icon"></a>
+            </div>            
+        </div>
+
+    <!-- Footer Nav -->
+        <div id="foot_nav">
+            <a href="contact.html">Kontakt</a>
+            <p>|</p>
+            <a href="#">Impressum</a>
+            <p>|</p>
+            <a href="#">Datenschutz</a>
+            <p>|</p>
+            <p>Copyright &copy;2024</p>
+        </div>
+    </footer>
+</body>
+</html>

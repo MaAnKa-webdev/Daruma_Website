@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="de">
+<head>
+<title>Lightbox-Test</title>
+	<meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../dist/css/lightbox.css" rel="stylesheet">
+    <style>
+        @font-face{
+            font-display: swap;
+            font-family: OpenSans;
+            src: url("../../fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+        }
+    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        html {
+            font: 1.2rem OpenSans, sans-serif;
+            font-variation-setting: "wght" 386, "wdth" 95;
+            scroll-behavior: smooth;
+        }
+        
+        h1, h2, h3 {
+            font-size: 2rem;
+            font-variation-setting: "wght" 721, "wdht" 95
+        }
+        
+        .galerie {
+            display: flex; 
+            gap: 0.5rem;
+        }
+        
+        
+        .galerie img:hover {
+            border: 5px solid orange;
+        }
+        
+        .lightbox .lb-image {
+            border: 10px dotted pink;
+        }
+        
+        .lb-data .lb-caption {
+            font-size: 1rem;
+            font-variation-settings: 'wght' 550, 'wdht' 100;
+            line-height: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <!--
+<a href="gross.webP" data-lightbox="x"><img src="klein.jpg" alt=""></a>
+
+data-lightbox - gleiche Bezeichner sind eine Gruppe (pflicht)
+data-title - Bildüberschrift, in großer Darstellung (freiwillig)
+data-alt - alt-Attribut für das große Bild (freiwillig)
+
+css bereitstellen
+(jQuery bereitstellen)
+js bereitstellen
+images - Ordner 
+html-Code einfügen
+Eigenschaften anpassen über Otionen (bzw. css-Einstellungen)
+-->
+    <h1>Lightbox-Test</h1>
+    <h2>Individuelle Fotos</h2>
+    <figure class="galerie">
+        <a href="gal1/big/n10.jpg" data-lightbox="image-1" data-title="My caption"><img src="gal1/n10.jpg"></a>    
+        <a href="gal1/big/n11.jpg" data-lightbox="image-2" data-title="My caption"><img src="gal1/n11.jpg"></a>
+    </figure>
+    
+    <h2>Fotogalerie</h2>
+    <figure class="galerie">
+        <a href="gal1/big/n12.jpg" data-lightbox="image-3" data-title="My caption"><img src="gal1/n12.jpg"></a>  
+        <a href="gal1/big/n13.jpg" data-lightbox="image-3" data-title="My caption"><img src="gal1/n13.jpg"></a>  
+        <a href="gal1/big/n14.jpg" data-lightbox="image-3" data-title="My caption"><img src="gal1/n14.jpg"></a>  
+        <a href="gal1/big/n15.jpg" data-lightbox="image-3" data-title="My caption"><img src="gal1/n15.jpg"></a>    
+    </figure>
+    
+    <h2>Galerie mit je einem Vorschaubild</h2>
+    <figure class="galerie">
+        <a href="gal1/big/n16.jpg" data-lightbox="image-4" data-title="My caption"><img src="gal1/n16.jpg"></a>    
+        <a href="gal1/big/n17.jpg" data-lightbox="image-4" data-title="My caption"></a>    
+        <a href="gal1/big/n18.jpg" data-lightbox="image-4" data-title="My caption"></a>    
+        <a href="gal1/big/n19.jpg" data-lightbox="image-4" data-title="My caption"></a>    
+        
+        <a href="gal1/big/n1.jpg" data-lightbox="image-5" data-title="My caption"><img src="gal1/n1.jpg"></a>    
+        <a href="gal1/big/n2.jpg" data-lightbox="image-5" data-title="My caption"></a>    
+        <a href="gal1/big/n3.jpg" data-lightbox="image-5" data-title="My caption"></a>    
+        <a href="gal1/big/n4.jpg" data-lightbox="image-5" data-title="My caption"></a>    
+    </figure>
+    
+    <script src="../dist/js/lightbox-plus-jquery.js"></script>
+    
+
+<script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'albumLabel': "Foto %1 von %2"    
+    })
+</script>
+
+
+</body>
+
+</html>

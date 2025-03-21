@@ -1,0 +1,6 @@
+User-agent:*
+Disallow: https://www.daruma.de/Konzeption/
+User-agent: Googlebot
+Disallow: http://www.daruma.de/kontakt.html
+
+Sitemap: https://www.daruma.de/sitemap.xml
