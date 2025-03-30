@@ -75,3 +75,11 @@ Marie Kawala
 Kontakt: marie.kawala@web.de
 
 GitHub: github.com/MaAnKa-webdev
+
+Hinweis zu Bildern und Schriftarten:
+Die in diesem Projekt verwendeten Bilder und Schriftarten dienen 
+ausschließlich der Präsentation und Demonstration der Webseite. 
+Ich übernehme keine Garantie oder Verantwortung für die Lizenzen 
+dieser Inhalte bei einer weiteren Verwendung. Es liegt in der 
+Verantwortung des Nutzers, die jeweiligen Nutzungsrechte zu prüfen 
+und gegebenenfalls entsprechende Lizenzen zu erwerben.
